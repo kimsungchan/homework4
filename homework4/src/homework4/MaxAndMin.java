@@ -3,13 +3,14 @@ import java.util.*;
 public class MaxAndMin {
 	public static void Max(){
 		Scanner s = new Scanner(System.in);
-		int max = 0;
+		int max = 0 ;
 		int min = 100;
 		
 		System.out.println("###최대값/최소값 구하기" );
 		
+		
 		while(true){
-			System.out.print(">>");
+		   System.out.print("0과 100사이의 숫자를 입력(Q:종료)>>");
 		   String m = s.nextLine();	
 			if(m.equals("Q")){
 				break;
@@ -17,8 +18,10 @@ public class MaxAndMin {
 			else if(Integer.parseInt(m)>=0 && Integer.parseInt(m)<=100){
 				if(Integer.parseInt(m)>max)
 					max = Integer.parseInt(m);
+				
 				else if(Integer.parseInt(m)<min)
 					min = Integer.parseInt(m);
+				
 			}
 			else continue;
 		}
