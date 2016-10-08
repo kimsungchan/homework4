@@ -5,6 +5,7 @@ public class ExamForWhile {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		
+		while(true){
 		System.out.println("반복문 연습하기1");
 		System.out.println("***********");
 		System.out.println("1. 부터 입력한 수까지 더하기");
@@ -37,10 +38,10 @@ public class ExamForWhile {
 	     GuGuDan2.Dan2();
         }
         else if(number == 6){
-	        System.exit(0);
+	      System.exit(0);
         }
 
-						
+		
 	}
-
+  }
 }
