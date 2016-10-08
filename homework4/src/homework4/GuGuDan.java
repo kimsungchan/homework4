@@ -12,18 +12,22 @@ public class GuGuDan {
 		   System.out.print(">>");
 		   String dan = s.nextLine();
 		   
-		   if(Integer.parseInt(dan) >1 && Integer.parseInt(dan)<10){
-			   for(int i = 0; i<10 ; i++){
-				   if(i%2 == 0)
-					   System.out.print(+Integer.parseInt(dan)+"*"+i+ "="+Integer.parseInt(dan)*i+"\n");
-				   else
-					   System.out.print(+Integer.parseInt(dan)+"*"+i+ "="+Integer.parseInt(dan)*i+"\n");
-			   }
-		   }
-		   else if(dan.equals("Q")){
+		   if(dan.equals("Q"))
+		   {
 			   break;
 		   }
-		   else{
+		   else if(Integer.parseInt(dan) >1 && Integer.parseInt(dan)<10)
+		   {
+			  for(int i = 0; i<10 ; i++){
+				  if(i%2 == 0)
+					  System.out.print(+Integer.parseInt(dan)+"*"+i+ "="+Integer.parseInt(dan)*i+"\n");
+				  else
+					  System.out.print(+Integer.parseInt(dan)+"*"+i+ "="+Integer.parseInt(dan)*i+"\n");
+			   }
+		   }
+		   
+		   else
+		   {
 			   System.out.println("===> 잘못입력");
 		   }
 	   }
