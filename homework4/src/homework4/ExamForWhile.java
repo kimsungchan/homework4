@@ -22,19 +22,19 @@ public class ExamForWhile {
 		}
 		else if(number == 2){
 		 MaxAndMin Max = new MaxAndMin();
-		
+		 MaxAndMin.Max();
 		}
         else if(number == 3){
 		 SumAndAvg Avg = new SumAndAvg();	
-		 
+		 SumAndAvg.Avg();
 		}
         else if(number == 4){
 	     GuGuDan Dan = new GuGuDan();
-	     
+	     GuGuDan.Dan();
         }
         else if(number == 5){
-	     GuGuDan2 Dan = new GuGuDan2();
-	     
+	     GuGuDan2 Dan2 = new GuGuDan2();
+	     GuGuDan2.Dan2();
         }
         else if(number == 6){
 	        System.exit(0);
