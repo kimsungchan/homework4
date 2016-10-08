@@ -21,19 +21,19 @@ public class ExamForWhile {
 		 
 		}
 		else if(number == 2){
-			
+		 MaxAndMin Max = new MaxAndMin();
 		}
         else if(number == 3){
-			
+		 SumAndAvg Avg = new SumAndAvg();	
 		}
         else if(number == 4){
-	
+	     GuGuDan Dan = new GuGuDan();
         }
         else if(number == 5){
-	
+	     GuGuDan2 Dan = new GuGuDan2();
         }
         else if(number == 6){
-	
+	       exit(0);
         }
 
 						
