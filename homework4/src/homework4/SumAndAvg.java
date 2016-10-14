@@ -10,7 +10,7 @@ public class SumAndAvg {
       double avg = 0;
       int count = 0;
    	  while(true){
-   		  System.out.print(">>");
+   		  System.out.print("숫자를 입력(Q:종료)>>");
    		  String n = s.nextLine();
    		  if(n.equals("Q")){
    			break;
