@@ -25,7 +25,7 @@ public class MaxAndMin {
 			}
 			else continue;
 		}
-		System.out.print("가장 큰 수는" +max+ "이고 작은수는" +min+"입니다.");
+		System.out.print("가장 큰 수는" +max+ "이고 작은수는" +min+"입니다.\n");
         return;
 	}
 }

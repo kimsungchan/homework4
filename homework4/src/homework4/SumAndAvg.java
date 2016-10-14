@@ -24,6 +24,6 @@ public class SumAndAvg {
    	  }	  
    	  
    	  System.out.print("총합은" +sum+ "입니다.");
-   	  System.out.print("평균은" +avg+ "입니다");
+   	  System.out.print("평균은" +avg+ "입니다\n");
      }
 }

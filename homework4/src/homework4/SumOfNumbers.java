@@ -19,6 +19,6 @@ public class SumOfNumbers {
 		  }
 			  
 	  }
-	  System.out.print("총합은" +sum+ "입니다.");
+	  System.out.print("총합은" +sum+ "입니다.\n");
   }
 }
