@@ -9,7 +9,7 @@ public class SumOfNumbers {
 	  int sum = 0;
 
 	  while(true){
-		  System.out.print(">>");
+		  System.out.print("마지막 수를 입력(Q:종료) >>");
 		  String n = s.nextLine();
 		  if(n.equals("Q")){
 			break;
