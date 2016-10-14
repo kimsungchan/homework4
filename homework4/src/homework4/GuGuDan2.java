@@ -5,10 +5,9 @@ public class GuGuDan2 {
 	   Scanner s = new Scanner(System.in);
 	   
 	   System.out.print("###Â¦¼ö´Ü È¦¼ö´Ü Ãâ·ÂÇÏ±â");
-	   System.out.print("E : Â¦¼ö´Ü, O : È¦¼ö´Ü(Q:Á¾·á)");
-	   
+	  
 	   while(true){
-		   System.out.print(">>");
+		   System.out.print("E : Â¦¼ö´Ü, O : È¦¼ö´Ü(Q:Á¾·á) >>");
 		   String m = s.nextLine();
 		   
 		   if(m.equals("E")){
