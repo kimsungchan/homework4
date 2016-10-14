@@ -6,7 +6,7 @@ public class GuGuDan {
 	   Scanner s = new Scanner(System.in);
 	  
 	   System.out.println("###원하는 구구단 출려하기");
-	   System.out.print("출력하고 싶은 단(Q:종료)");
+	   
 	   
 	   while(true){
 		   System.out.print("출력하고 싶은 단(Q:종료)>>");
