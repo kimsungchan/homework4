@@ -18,7 +18,7 @@ public class GuGuDan {
 		   }
 		   else if(Integer.parseInt(dan) >1 && Integer.parseInt(dan)<10)
 		   {
-			  for(int i = 0; i<10 ; i++){
+			  for(int i = 1; i<10 ; i++){
 				  if(i%2 == 0)
 					  System.out.print(+Integer.parseInt(dan)+"*"+i+ "="+Integer.parseInt(dan)*i+"\n");
 				  else
