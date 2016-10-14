@@ -9,7 +9,7 @@ public class GuGuDan {
 	   System.out.print("출력하고 싶은 단(Q:종료)");
 	   
 	   while(true){
-		   System.out.print(">>");
+		   System.out.print("출력하고 싶은 단(Q:종료)>>");
 		   String dan = s.nextLine();
 		   
 		   if(dan.equals("Q"))
